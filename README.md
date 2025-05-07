@@ -8,14 +8,14 @@ Welcome to the Hawaii State Website project! This site provides users with acces
 - 🗺️ Interactive map of Hawaii counties
 - 📅 Dynamic news/events feed from state agencies
 - 📄 Online forms for residents and businesses
-- 🧑‍🤝‍🧑 Accessibility-compliant design (WCAG 2.1)
+- 🧑‍🤝‍🧑 Accessibility-compliant design
 - 📱 Responsive design for desktop and mobile
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** HTML5, CSS3, JavaScript (or React/Vue if using a framework)
-- **Backend:** Node.js / Express (optional)
-- **API Integrations:** Government open data feeds (if applicable)
+- **Frontend:** HTML5, CSS3, JavaScript
+- **Backend:** Node.js
+- **API Integrations:** Government open data feeds
 - **Hosting:** GitHub Pages / Netlify / AWS / Other
 
 ## 📦 Installation
