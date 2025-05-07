@@ -1,0 +1,141 @@
+/* -------------------
+   Global Styles
+------------------- */
+
+/* 1. Font-family declaration applied to the body */
+body {
+    font-family: Arial, sans-serif; /* clean, readable font */
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  
+  /* 6. Element selector: styles for all h2 elements */
+  h2 {
+    color: #0077b6;
+    margin-top: 20px;
+  }
+  
+  /* -------------------
+     Navigation Bar
+  ------------------- */
+  
+  /* Navigation styling */
+  nav {
+    background-color: #023e8a;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Navigation links */
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  /* 2. :hover pseudo-class for nav rollover effect */
+  nav a:hover {
+    color: #ffd60a; /* bright yellow on hover */
+  }
+  
+  /* -------------------
+     Layout Utilities
+  ------------------- */
+  
+  /* 3. Float property used to align image left of text */
+  .float-left {
+    float: left;
+    margin-right: 20px;
+    width: 300px;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+  /* 6. Class selector used twice on same page */
+  .card-box {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.1);
+    margin: 10px 0;
+  }
+  
+  /* 6. ID selector used for special element highlight */
+  #special-message {
+    color: #e63946;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  /* 4. Absolute positioning example */
+  .absolute-note {
+    position: absolute;
+    top: 225px;
+    right: 275px;
+    background-color: #ffdd57;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 100;
+  }
+  
+  /* 5. Relative positioning example */
+  .relative-banner {
+    position: relative;
+    top: 10px;
+    left: 15px;
+    background-color: #caf0f8;
+    padding: 10px;
+    border-left: 4px solid #0077b6;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #0077b6;
+    color: white;
+    margin-top: 30px;
+    position: relative;
+  }
+
+  /* Layout for vertical nav on interior pages */
+.vertical-layout {
+    display: flex;
+  }
+  
+  /* Vertical navigation container */
+  .vertical-nav {
+    width: 200px;
+    background-color: #023e8a;
+    padding-top: 20px;
+    min-height: 100vh;
+  }
+  
+  /* Stack nav links vertically */
+  .vertical-nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-bottom: 1px solid #0077b6;
+    font-weight: bold;
+  }
+  
+  .vertical-nav a:hover {
+    background-color: #0077b6;
+    color: #ffd60a;
+  }
+  
+  /* Main content beside vertical nav */
+  .vertical-content {
+    flex: 1;
+    padding: 20px;
+  }
